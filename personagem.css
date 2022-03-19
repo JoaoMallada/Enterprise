@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/your-name.png);
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image {
+    padding-left: 30%;
+    height: 739px;
+    width: 1700px;
+}
+
+.container__2 {
+    height: 740px;
+    width: 2455px;
+    border: 1px solid rgba(179, 179, 179, 0.493);
+    border-radius: 10px;
+    background-color: rgba(179, 179, 179, 0.692);
+}
+
+.boy {
+    width: 600px;
+    height: 350px;
+    font-weight: 600;
+    position: absolute; top: 350px; left: 140px;
+    color: rgb(35, 90, 173);
+}
+
+.taki {
+    font-size: 36px;
+    text-align: center;
+}
+
+.taki__2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.girl {
+    width: 600px;
+    height: 350px;
+    font-weight: 600;
+    position: absolute; top: 350px; left: 70%;
+    color: rgb(233, 49, 141);
+}
+
+.mitsuha {
+    font-size: 36px;
+    text-align: center;
+}
+
+.mitsuha__2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.container {
+    height: 700px;
+    width: 600px;
+    margin: 30px;
+}
+
+.header-top {
+    width: 800px;
+    height: 10px;
+    color: white;
+    display: flex;
+    padding: 0 40px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 50px;
+    position: absolute; left: 2000px;
+}
+
+.header-nav li {
+    margin: 0 30px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #ddd;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.header-nav a:hover {
+    color: #fff;
+
+}
